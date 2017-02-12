@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Gentium+Basic');
+
+
+body{
+    background: url('../images/haunted-forests.jpg') no-repeat center center fixed; 
+    background-size: cover;
+    font-family: 'Gentium Basic', serif;
+    color: #FFFFFF;
+    /*overflow: hidden;*/
+}
+
+
+.clickable{
+	cursor:pointer;
+}
+
+
+.hidden{
+   visibility:hidden;
+}
+
+
+.shadowed{
+ -webkit-box-shadow: 3px 3px 23px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    3px 3px 23px 0px rgba(50, 50, 50, 0.75);
+		 box-shadow:         3px 3px 23px 0px rgba(50, 50, 50, 0.75);	
+}
+
+
+.greeting-text{
+    text-align:center;
+}
+
+
+.choice-box{
+	display: inline-block;
+    border-radius: 3px;
+    padding: 20px;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    left: 50%;
+    position: absolute;
+    background-color:#474747;
+    color: #FFFFFF;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.situation-text{
+    display:block;
+}
+
+
+.name-text{
+    display: inline-block;
+}
+
+
+.situation-image{
+    width: 80%;
+    height: auto;
+}
+
+
+.btn{
+    white-space: normal;
+    border: none;
+    background-color: #8e8e8e;
+    color: #FFFFFF;
+}
+
+
+.btn:focus {
+  outline: none;
+  background-color: none;
+  border: none;
+  border-color: none;
+  color: #FFFFFF;
+}
+
+
+.btn:active:focus{
+  outline: none;
+  background-color: none;
+  border: none;
+  border-color: none;
+  color: #FFFFFF;
+}
+
+
+.btn:hover{
+    background-color: #1c1c1c;
+    color: #FFFFFF;
+    border: none;
+}
+
+
+.option-select{
+	padding:5px 300px;
+	margin: 0 5px;
+	display:block;
+	vertical-align: bottom;
+    color: #FFFFFF;
+}
+
+
+.situation-text-holder{
+	text-align: center;
+	display: block;
+}
+
+
+.copyright{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    margin: 5px;
+}
