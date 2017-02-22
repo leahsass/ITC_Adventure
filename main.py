@@ -182,7 +182,8 @@ def images(filename):
 
 
 def main():
-    run(host='localhost', port=9004)
+    # run(host='localhost', port=9004)
+    run(host='0.0.0.0', port=argv[1])
 
 
 
